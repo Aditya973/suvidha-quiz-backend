@@ -6,5 +6,4 @@ module.exports = {
     PORT : process.env.PORT,
     CONNECTION: process.env.CONNECTION,
     JWT_KEY: process.env.JWT_KEY,
-    CLIENT_URL: process.env.CLIENT_URL
 }
