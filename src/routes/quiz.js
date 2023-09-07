@@ -49,7 +49,7 @@ router.get('/question/:id',isAuthenticated,isAuthorized, async(req,res)=>{
         
     } catch (error) {
         console.log(error);
-        return res.status(500).json({
+        return res.status(404).json({
             success: false,
             err: error
         })
